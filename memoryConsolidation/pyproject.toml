@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "memoryconsolidation"
+version = "0.1.0"
+description = ""
+authors = ["Ulugbek Shernazarov u.shernaz4rov@gmail.com"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+matplotlib = "3.7.0"
+numpy = "1.24.2"
+pillow = "9.4.0"
+scikit-learn = "1.2.1"
+torch = "2.0.1"
+torchvision = "0.15.2"
+tqdm = "4.64.1"
+pydantic = "1.10.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
